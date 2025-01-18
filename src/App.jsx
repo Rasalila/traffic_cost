@@ -1,6 +1,6 @@
 // import TariffList from './components/TariffList';
 import './App.css';
-import Tariff from './components/Tariff.jsx';
+import Tariff from './assets/components/Tariff.jsx';
 
 function App() {
   return (
