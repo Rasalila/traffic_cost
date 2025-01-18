@@ -1,10 +1,12 @@
-import AllPlans from "./Components/AllPlans/AllPlans";
-import "./App.css";
+// import TariffList from './components/TariffList';
+import './App.css';
+import Tariff from './components/Tariff.jsx';
 
 function App() {
   return (
-    <div>
-      <AllPlans />
+    <div className="App">
+      <h1>Интернет тарифы</h1>
+      <Tariff />
     </div>
   );
 }
